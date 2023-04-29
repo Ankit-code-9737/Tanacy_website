@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254" height="76" viewBox="0 0 254 76">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_245" data-name="Rectangle 245" width="254" height="40" transform="translate(0 -0.456)" fill="#191919"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1965" data-name="Group 1965" transform="translate(22615 16271)">
+    <rect id="Rectangle_519" data-name="Rectangle 519" width="254" height="40" transform="translate(-22615 -16235)" fill="#191919"/>
+    <g id="Group_1955" data-name="Group 1955" transform="translate(-22615 -16255)">
+      <g id="logo-tenecy-city" transform="translate(0 0)">
+        <text id="TENECY" transform="translate(128 37)" fill="#191919" font-size="49" font-family="SegoeUI, Segoe UI" letter-spacing="0.12em"><tspan x="-99.361" y="0">TENECY</tspan></text>
+        <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(0 20.456)" clip-path="url(#clip-path)">
+          <g id="Group_344" data-name="Group 344" transform="translate(17.047 -20.456)">
+            <text id="TENECY-2" data-name="TENECY" transform="translate(110.953 37)" fill="#fff" font-size="49" font-family="SegoeUI, Segoe UI" letter-spacing="0.12em"><tspan x="-99.361" y="0">TENECY</tspan></text>
+            <text id="CITY" transform="translate(161.812 55.617)" fill="#fff" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="1.875em"><tspan x="-103.012" y="0">CITY</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

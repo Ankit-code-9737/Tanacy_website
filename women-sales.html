@@ -1,0 +1,2007 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta name="generator" content="">
+      <title>Tenecy - Women sales - Shopping Center</title>
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/tenecy.css" rel="stylesheet">
+      <link href="assets/css/datepicker.css" rel="stylesheet">
+      <link href="assets/css/responsive.css" rel="stylesheet">
+  </head>
+  <body >
+    <!-- topbar -->
+    <section class="topbar">
+      <div class="full-container">
+        <div class="topbar-panel">
+            <div class="topbar-section topbar-one">
+                <div class="topbar-left-menu">
+                  <a href="index-women.html" class="active">femme</a>
+                  <a href="index-man.html">homme</a>
+                  <a href="index-child.html">enfant</a>
+                  <a href="private-sales.html" class="red-color">City</a>
+                </div>
+            </div>
+            <div class="topbar-section topbar-two">
+              <div class="logo">
+                <a href="index-women.html"><img src="assets/images/logo.svg" alt="logo"></a>
+              </div>
+            </div>
+            <div class="topbar-section topbar-three">
+              <div class="topbar-right-menu">
+                  <div class="register-login">
+                    <div class="topbar-web">
+                      <button type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                        <span>S'inscrire / Se connecter</span>
+                      </button>
+                    </div>
+                      <!-- Modal -->
+                      <div class="modal fade register-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                                    <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                                  </svg>
+                                </span>
+                              </button>
+                            <div class="modal-body login-body">
+                              <h3>Connectez-vous à votre compte</h3>
+                              <p>Veuillez saisir votre adresse email et votre mot de passe pour accéder à votre compte et commencer vos achats</p>
+                              <div class="move-input">
+                                <form class="form">
+                                  <div class="field">
+                                    <input class="moveinput" id="email" type="email" required>
+                                    <label class="movelabel" for="email">Email</label>
+                                  </div>
+                                  <div class="field">
+                                    <input class="moveinput"  id="password" type="password" required>
+                                    <label class="movelabel"  for="password">Mot de passe</label>
+                                  </div>
+                                  <div class="remember">
+                                    <div class="remember-input">
+                                      <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Se souvenir de moi</label>
+                                    </div>
+                                    <a href="javascript:void(0)" class="resetPassword">Mot de passe oublié ?</a>
+                                    <div class="reset-password-panel">
+                                      <div class="reset-header">
+                                        <div class="logo">
+                                          <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                                        </div>
+                                        <div class="help-section">
+                                          <h3>Besoin d'aide ?</h3>
+                                          <p>Veuillez contacter notre service client au +33 1 57 32 44 44</p>
+                                        </div>
+                                      </div>
+                                      <div class="search-close reset-close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                                          <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"></path>
+                                        </svg>
+                                      </div>
+                                      <div class="reset-password-blog register-modal changeMailNone">
+                                        <div class="rpb-panel rpbPanel">
+                                          <h3>Réinitialiser le mot de passe</h3>
+                                          <p>Vous avez oublié votre mot de passe ? Aucun souci ! Nous vous enverrons la procédure par email</p>
+                                          <div class="field">
+                                            <input class="moveinput" id="email" type="email" required="">
+                                            <label class="movelabel" for="email">Email</label>
+                                          </div>
+                                          <div class="reset-button">
+                                            <a href="javascript:void(0)" class="black-btn resetPasswordToggle">Réinitialiser le mot de passe</a>
+                                          </div>
+                                        </div>
+                                        <div class="confirm-mail confirmToggle changeMailPanel">
+                                          <div class="confirmMailSecond-panel">
+                                            <h3>Vérifiez votre boîte mail</h3>
+                                              <p>ben@gmail.com Nous avons envoyé un mail à votre adresse pour réinitialiser votre mot de passe</p>
+                                              <div class="email-img">
+                                                <img src="assets/images/email-icon.png">
+                                              </div>
+                                              <p>Vous n'avez pas reçu l'e-mail ? Vérifiez que l'adresse électronique saisie est correcte, ou que l'email ne s'est pas glissé dans vos spams</p>
+                                              <div class="reset-button">
+                                                <a href="javascript:void(0)" class="black-btn changeMailActive">Retourner à la connexion</a>
+                                                <a href="javascript:void(0)" class="trans-btn">Aller à la Home page</a>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="changesMail">
+                                          <h3>Réinitialiser le mot de passe</h3>
+                                          <p>E-mail adresse : ben@gmail.com</p>
+                                          <div class="field">
+                                            <input class="moveinput" type="password" required="">
+                                            <label class="movelabel" >Nouveau mot de passe</label>
+                                          </div>
+                                          <div class="field">
+                                            <input class="moveinput" type="password" required="">
+                                            <label class="movelabel" >Confirmation du nouveau mot de passe</label>
+                                          </div>
+                                          <div class="reset-button">
+                                            <a href="javascript:void(0)" class="black-btn">Changer mot de passe</a>
+                                            <a href="javascript:void(0)" class="trans-btn">Retour connexion</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-btn">
+                                    <a href="javascript:void(0)" class="black-btn">Se connecter</a>
+                                    <div class="social-btn">
+                                      <a href="javascript:void(0)" class="trans-btn">
+                                        <img src="assets/images/socialicon/google.png" alt="google img">
+                                        Continuer avec google
+                                      </a>
+                                      <a href="javascript:void(0)" class="trans-btn">
+                                        <img src="assets/images/socialicon/facebook.png" alt="facebook img">
+                                        Continuer avec Facebook
+                                      </a>
+                                    </div>
+                                  </div>
+                                </form>
+                                <a class="modal-link" data-toggle="modal" data-target="#registerModal">Nouveau sur tenecy ? <b>S'inscrire maintenant</b></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="topbar-web">
+                    <div class="wishlist-cart">
+                        <div class="wishlist-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
+                            <path id="icons8-heart_outline" d="M11.5,21l-.327-.2C10.838,20.6,3,15.838,3,10.739A4.666,4.666,0,0,1,7.577,6,4.55,4.55,0,0,1,11.5,8.3,4.55,4.55,0,0,1,15.423,6,4.666,4.666,0,0,1,20,10.739c0,5.1-7.838,9.864-8.173,10.063ZM7.577,7.354a3.332,3.332,0,0,0-3.269,3.385c0,3.795,5.744,7.749,7.192,8.685,1.448-.936,7.192-4.89,7.192-8.685a3.271,3.271,0,1,0-6.538,0H10.846A3.332,3.332,0,0,0,7.577,7.354Z" transform="translate(-3 -6)" fill="#191919"/>
+                          </svg>
+                        </div>
+                        <div class="cart-icon">
+                          <svg class="cartsvg" id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <g id="surface1" transform="translate(-1 -0.992)">
+                              <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                            </g>
+                          </svg>
+                          <div class="cart-dropdown">
+                            <div class="cart-title">
+                              <div class="iten-name">
+                                <span>Panier</span>
+                                <label>1 article</label>
+                              </div>
+                              <div class="cencel-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                                  <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="product-section">
+                              <div class="product-data">
+                                <div class="product-img">
+                                  <img src="assets/images/product-img/product-img.jpg" alt="product img">
+                                </div>
+                                <div class="product-datalist">
+                                  <h4>Dernier article</h4>
+                                  <h3>Armani Exchange </h3>
+                                  <p>Veste en jean</p>
+                                  <p>
+                                    <span>Couleur : </span><span>Bleu</span>
+                                  </p>
+                                  <p>
+                                    <span>Taille : </span><span>XS</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="item-counting">
+                                <h3>85 €</h3>
+                                <div class="input-group product_qty">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-white btn-minus" type="button">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2">
+                                          <path id="icons8-plus_math" d="M3,9.222v2H17v-2Z" transform="translate(-3 -9.222)" fill="#fff"/>
+                                        </svg>
+                                      </span>
+                                    </button>
+                                  </span>
+                                  <input type="text" class="form-control no-padding add-color text-center height-25" maxlength="3" value="0">
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-red btn-plus" type="button">
+                                        <span>
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                            <path id="icons8-plus_math" d="M9.222,3V9.222H3v1.556H9.222V17h1.556V10.778H17V9.222H10.778V3Z" transform="translate(-3 -3)" fill="#fff"/>
+                                          </svg>
+                                        </span>
+                                      </button>
+                                    </span>
+                                </div>
+                                <a href="javascript:void(0)">Supprimer</a>
+                              </div>
+                            </div>
+                            <div class="subtotal">
+                              <div class="subtotal-title">
+                                <span>Sous-total</span>
+                                <label>85 €</label>
+                              </div>
+                              <div class="total-button">
+                                <a href="javascript:void(0)" class="trans-btn">
+                                  Panier
+                                  <svg id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <g id="surface1" transform="translate(-1 -0.992)">
+                                      <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                                    </g>
+                                  </svg>
+                                </a>
+                                <a href="javascript:void(0)" class="pink-btn">
+                                  Paiement
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15">
+                                    <g id="icons8-forward" transform="translate(0 15) rotate(-90)">
+                                      <path id="icons8-forward-2" data-name="icons8-forward" d="M1.73,0,0,1.73,5.27,7,0,12.27,1.73,14l7-7Z" transform="translate(14 0) rotate(90)" fill="#fff"/>
+                                    </g>
+                                  </svg>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="hamburger togglemenu" id="hamburger-11">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- topbar -->
+
+    <!-- main menu -->
+    <section class="main-menu">
+      <div class="mobile-logo">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+        </div>
+      </div>
+      <ul class="menu" >
+        <li class="menu-li">
+          <a href="javascript:void(0)" class="active menulist">Tendances</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-6  p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Marques</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir toutes les marques</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Alexander McQueen</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Gucci</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Lola</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Saint Lauren</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Bottega Veneta</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Valentino</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Balmain</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Dolce & gabbana</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Givenchy</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Chloé</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Cartier</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-right">
+                    <h3 class="mega-menu-title">Marques de A-Z</h3>
+                    <div class="filtter-abc">
+                      <div class="mega-menu-filtter">
+                        <div class="count-no">0-9</div>
+                        <span>
+                          <a href="javascript:void(0)">a</a>
+                        </span>
+                        <span>
+                          <a href="javascript:void(0)">b</a>
+                        </span>
+                        <span><a href="javascript:void(0)">c</a></span>
+                        <span><a href="javascript:void(0)">d</a></span>
+                        <span><a href="javascript:void(0)">e</a></span>
+                        <span><a href="javascript:void(0)">f</a></span>
+                        <span><a href="javascript:void(0)">g</a></span>
+                        <span><a href="javascript:void(0)">h</a></span>
+                        <span><a href="javascript:void(0)">i</a></span>
+                        <span><a href="javascript:void(0)">j</a></span>
+                        <span><a href="javascript:void(0)">k</a></span>
+                        <span><a href="javascript:void(0)">l</a></span>
+                        <span><a href="javascript:void(0)">m</a></span>
+                        <span><a href="javascript:void(0)">n</a></span>
+                        <span><a href="javascript:void(0)">o</a></span>
+                        <span><a href="javascript:void(0)">p</a></span>
+                        <span><a href="javascript:void(0)">q</a></span>
+                        <span><a href="javascript:void(0)">r</a></span>
+                        <span><a href="javascript:void(0)">s</a></span>
+                        <span><a href="javascript:void(0)">t</a></span>
+                        <span><a href="javascript:void(0)">u</a></span>
+                        <span><a href="javascript:void(0)">v</a></span>
+                        <span><a href="javascript:void(0)">w</a></span>
+                        <span><a href="javascript:void(0)">x</a></span>
+                        <span><a href="javascript:void(0)">y</a></span>
+                        <span><a href="javascript:void(0)">z</a></span>
+                      </div>
+                      <div class="voir-tout">Voir tout</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6  p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img">
+                    <img src="assets/images/menu-img/kids-designer.jpg" alt="kids banner">
+                    <h4>Acheter Dior ›</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li">
+          <a href="javascript:void(0)" class=" menulist">Marques</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-6 p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Marques</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir toutes les marques</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Alexander McQueen</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Balmain Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Bonpoint</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Burberry Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Dolce & Gabbana Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Fendi Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Gucci Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Kenzo Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Monnalisa</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Moncler Enfant</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Moschino Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Stella McCartney Kids</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Young Versace</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-right">
+                    <h3 class="mega-menu-title">Marques de A-Z</h3>
+                    <div class="filtter-abc">
+                      <div class="mega-menu-filtter">
+                        <div class="count-no">0-9</div>
+                        <span>
+                          <a href="javascript:void(0)">a</a>
+                        </span>
+                        <span>
+                          <a href="javascript:void(0)">b</a>
+                        </span>
+                        <span><a href="javascript:void(0)">c</a></span>
+                        <span><a href="javascript:void(0)">d</a></span>
+                        <span><a href="javascript:void(0)">e</a></span>
+                        <span><a href="javascript:void(0)">f</a></span>
+                        <span><a href="javascript:void(0)">g</a></span>
+                        <span><a href="javascript:void(0)">h</a></span>
+                        <span><a href="javascript:void(0)">i</a></span>
+                        <span><a href="javascript:void(0)">j</a></span>
+                        <span><a href="javascript:void(0)">k</a></span>
+                        <span><a href="javascript:void(0)">l</a></span>
+                        <span><a href="javascript:void(0)">m</a></span>
+                        <span><a href="javascript:void(0)">n</a></span>
+                        <span><a href="javascript:void(0)">o</a></span>
+                        <span><a href="javascript:void(0)">p</a></span>
+                        <span><a href="javascript:void(0)">q</a></span>
+                        <span><a href="javascript:void(0)">r</a></span>
+                        <span><a href="javascript:void(0)">s</a></span>
+                        <span><a href="javascript:void(0)">t</a></span>
+                        <span><a href="javascript:void(0)">u</a></span>
+                        <span><a href="javascript:void(0)">v</a></span>
+                        <span><a href="javascript:void(0)">w</a></span>
+                        <span><a href="javascript:void(0)">x</a></span>
+                        <span><a href="javascript:void(0)">y</a></span>
+                        <span><a href="javascript:void(0)">z</a></span>
+                      </div>
+                      <div class="voir-tout">Voir tout</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img">
+                    <img src="assets/images/menu-img/kids-banner.jpg" alt="kids banner">
+                    <h4>Acheter fendi  ›</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li">
+          <a href="javascript:void(0)" class="menulist">Prêt-à-porter</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-6 p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Prêt-à-porter</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Tout le prêt-à-porter</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Les nouveautés ✦</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Vêtements de plage</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Manteaux</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Jeans</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Robes</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Vestes</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Mailles & Pulls</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Lingerie</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Shorts</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Jupes</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Tops</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Pantalons</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-right">
+                    <h3 class="mega-menu-title">Sportswear</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Tous les vêtements de sport</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Cyclisme</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Gym & entraînement</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Plein air</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Running</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Ski & Snowboard</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img">
+                    <img src="assets/images/menu-img/ready-to-wear.jpg" alt="toute-banner">
+                    <h4>Toute la collection ›</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li shoes">
+          <a href="javascript:void(0)" class="menulist">Chaussures</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-4 p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Chaussures</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Toutes les chaussures</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Les nouveautés ✦</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Boots</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Brogues</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Derbies</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Espadrilles</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sandales</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Chelsea boots</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Baskets</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Mocassins</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Claquettes & Tongs </a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Bateaux</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img">
+                    <img src="assets/images/menu-img/shoes.jpg" alt="shoes banner">
+                    <h4>Acheter les baskets  ›</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li">
+          <a href="javascript:void(0)" class="menulist">Sacs & Accessoires</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-6 p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Sacs</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir tout</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Nouveautés ✦</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Bagages </a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Mini sacs</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Pochettes</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs à dos</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs à main</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs bandoulière</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs cabas / Portés épaule</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs ceinture</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs de voyage</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sacs seau</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Tote bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-right">
+                    <h3 class="mega-menu-title">Accessoires</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir tout</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Nouveautés ✦</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Accessoires cheveux</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Bijoux</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Ceintures</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Chapeaux</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Coques pour téléphone</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Écharpes</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Gants</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Lunettes de soleil</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Montres</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Parapluies</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Portefeuilles et porte-monnaie</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img twice-img">
+                    <div class="mega-menu-twice-img">
+                      <img src="assets/images/menu-img/buy-jewelry.jpg" alt="jewelery">
+                      <h4>Acheter des bijoux ›</h4>
+                    </div>
+                    <div class="mega-menu-twice-img">
+                      <img src="assets/images/menu-img/buy-bags.jpg" alt="bags">
+                      <h4>Acheter des sacs ›</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li">
+          <a href="javascript:void(0)" class="menulist">Beauté</a>
+          <div class="mega-dropdown">
+            <img src="assets/images/svg-icons/back.svg" class="back-mega-menu">
+            <div class="row m-0 mega-row">
+              <div class="col-lg-6 p-0">
+                <div class="mega-menu-panel">
+                  <div class="mega-menu-left">
+                    <h3 class="mega-menu-title">Beauté</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir tout</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Les nouveautés ✦</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Corps & Bain</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Parfum</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Skincare</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Produits solaires</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-right">
+                    <h3 class="mega-menu-title">Marques</h3>
+                    <ul class="mega-menu">
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Voir toutes les marques</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Augustinus Bader</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Charlotte Tilbury</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Christian Louboutin Beauty</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Dr. Barbara Sturm</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">La Mer</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Le Labo</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Marc Jacobs Beauty</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Sisley</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">TATA HARPER</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Victoria Beckham</a></li>
+                      <li class="mega-li"><a href="javascript:void(0)" class="megahref">Westman Atelier</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0">
+                <div class="menu-img">
+                  <div class="mega-menu-img">
+                    <img src="assets/images/menu-img/beauty.jpg" alt="beauty women">
+                    <h4>Acheter clarins ›</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li outlet">
+          <a href="javascript:void(0)" class="menulist">Outlet</a>
+        </li>
+        <li class="menu-li search">
+          <a href="javascript:void(0)" class="menulist">
+            <div class="searchicon">
+              <svg id="icons8-search" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                <path id="icons8-search-2" data-name="icons8-search" d="M9.25,3A6.25,6.25,0,1,0,13.2,14.085l3.732,3.732a.625.625,0,1,0,.884-.884L14.085,13.2A6.243,6.243,0,0,0,9.25,3Zm0,1.25a5,5,0,1,1-5,5A4.991,4.991,0,0,1,9.25,4.25Z" transform="translate(-3 -3)" fill="#191919"/>
+              </svg>
+            </div>
+            <div class="search-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+              </svg>
+            </div>
+          </a>
+          <div class="search-panel">
+            <div class="finder-header">
+              <div class="search-container">
+                <div class="search-header">
+                  <span>Ventes privées</span>
+                  <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="search-container">
+              <div class="search-section">
+                <div class="search-title">
+                  <span>Rechercher dans : Homme</span>
+                  <div class="disable-label">
+                    <label>Femme</label>
+                    <label>Enfant</label>
+                  </div>
+                </div>
+                <div class="finder-input">
+                  <input type="text" name="search" placeholder="Search Here">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                    <path id="icons8-search" d="M8.833,3a5.833,5.833,0,1,0,3.688,10.346L16,16.829A.583.583,0,1,0,16.829,16l-3.483-3.483A5.827,5.827,0,0,0,8.833,3Zm0,1.167A4.667,4.667,0,1,1,4.167,8.833,4.658,4.658,0,0,1,8.833,4.167Z" transform="translate(-3 -3)" fill="#ff7f9f"/>
+                  </svg>
+                  <a href="javascript:void(0)">Effacer</a>
+                </div>
+              </div>
+              <div class="finder-data">
+                <h3 class="categories-title">Catégories</h3>
+                <div class="buy-new-product">
+                  <ul class="categories-list">
+                    <li><span>Sac</span><label>1209</label></li>
+                    <li><span>Sac porté épaule</span><label>280</label></li>
+                    <li><span>Sac banane</span><label>511</label></li>
+                    <li><span>Tote Bag</span><label>357</label></li>
+                    <li><span>Sacoche</span><label>109</label></li>
+                    <li><span>Sac de voyage</span><label>379</label></li>
+                    <li><span>Sac ceinture</span><label>57</label></li>
+                    <li><span>Sac à dos</span><label>179</label></li>
+                  </ul>
+                  <div class="buynewbtn">
+                    <a href="javascript:void(0)" class="black-btn buy-new-btn">Acheter les nouveautés <span class="right-arrow-style">›</span></a>
+                  </div>
+                </div>
+                <h3 class="categories-title">Articles</h3>
+              </div>
+            </div>
+            <div class="shopping-panel">
+              <div class="full-container">
+                <div class="row m-0 product-panel">
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="shopping-product">
+                      <div class="img-items">
+                        <a href="product-details.html"><img src="assets/images/product-img/colored-bag-woman-one.png" alt="colored-bag-woman"></a>
+                      </div>
+                      <div class="whishlisticon">
+                        <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                        <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                      </div>
+                      <div class="product-details">
+                        <span>dolce & gabbana</span>
+                        <p>Sac à dos zippé avec logo</p>
+                        <label class="product-price">435 €</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="shopping-product">
+                      <div class="img-items">
+                        <a href="product-details.html"><img src="assets/images/product-img/colored-bag-woman-two.png" alt="colored-bag-woman"></a>
+                      </div>
+                      <div class="whishlisticon">
+                        <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                        <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                      </div>
+                      <div class="product-details">
+                        <span>dolce & gabbana</span>
+                        <p>Sac à dos avec motifs</p>
+                        <label class="product-price">425 €</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="shopping-product">
+                      <div class="img-items">
+                        <a href="product-details.html"><img src="assets/images/product-img/colored-bag-woman-three.png"></a>
+                      </div>
+                      <div class="whishlisticon">
+                        <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                        <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                      </div>
+                      <div class="product-details">
+                        <span>dolce & gabbana</span>
+                        <p>Sacoche en cuir</p>
+                        <label class="product-price">310 €</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="shopping-product">
+                      <div class="img-items">
+                        <a href="product-details.html"><img src="assets/images/product-img/colored-bag-woman-four.png"></a>
+                      </div>
+                      <div class="whishlisticon">
+                        <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                        <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                      </div>
+                      <div class="product-details">
+                        <span>dolce & gabbana</span>
+                        <p>Sac de voyage en cuir suédé</p>
+                        <label class="product-price">1 200 €</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shopping-section">
+                    <a href="javascript:void(0)" class="black-btn">Voir tout ( 1080 résultats)</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li header-spy">
+          <div class="topbar-right-menu">
+            <div class="register-login">
+                <button type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                  <span>S'inscrire / Se connecter</span>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade register-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                              <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                            </svg>
+                          </span>
+                        </button>
+                      <div class="modal-body login-body">
+                        <h3>Connectez-vous à votre compte</h3>
+                        <p>Veuillez saisir votre adresse email et votre mot de passe pour accéder à votre compte et commencer vos achats</p>
+                        <div class="move-input">
+                          <form class="form">
+                            <div class="field">
+                              <input class="moveinput" id="email" type="email" required>
+                              <label class="movelabel" for="email">Email</label>
+                            </div>
+                            <div class="field">
+                              <input class="moveinput"  id="password" type="password" required>
+                              <label class="movelabel"  for="password">Mot de passe</label>
+                            </div>
+                            <div class="remember">
+                              <div class="remember-input">
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Se souvenir de moi</label>
+                              </div>
+                              <a href="javascript:void(0)" class="remember-text">Mot de passe oublié ?</a>
+                            </div>
+                            <div class="form-btn">
+                              <a href="javascript:void(0)" class="black-btn">Se connecter</a>
+                              <div class="social-btn">
+                                <a href="javascript:void(0)" class="trans-btn">
+                                  <img src="assets/images/socialicon/google.png" alt="google img">
+                                  Continuer avec google
+                                </a>
+                                <a href="javascript:void(0)" class="trans-btn">
+                                  <img src="assets/images/socialicon/facebook.png" alt="facebook img">
+                                  Continuer avec Facebook
+                                </a>
+                              </div>
+                            </div>
+                          </form>
+                          <a href="javascript:void(0)" class="already-account">Nouveau sur tenecy ? <b>S'inscrire maintenant</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="wishlist-cart">
+                <div class="wishlist-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
+                    <path id="icons8-heart_outline" d="M11.5,21l-.327-.2C10.838,20.6,3,15.838,3,10.739A4.666,4.666,0,0,1,7.577,6,4.55,4.55,0,0,1,11.5,8.3,4.55,4.55,0,0,1,15.423,6,4.666,4.666,0,0,1,20,10.739c0,5.1-7.838,9.864-8.173,10.063ZM7.577,7.354a3.332,3.332,0,0,0-3.269,3.385c0,3.795,5.744,7.749,7.192,8.685,1.448-.936,7.192-4.89,7.192-8.685a3.271,3.271,0,1,0-6.538,0H10.846A3.332,3.332,0,0,0,7.577,7.354Z" transform="translate(-3 -6)" fill="#191919"/>
+                  </svg>
+                </div>
+                <div class="cart-icon">
+                  <svg class="cartsvg" id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g id="surface1" transform="translate(-1 -0.992)">
+                      <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                    </g>
+                  </svg>
+                  <div class="cart-dropdown">
+                    <div class="cart-title">
+                      <div class="iten-name">
+                        <span>Panier</span>
+                        <label>1 article</label>
+                      </div>
+                      <div class="cencel-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                          <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="product-section">
+                      <div class="product-data">
+                        <div class="product-img">
+                          <img src="assets/images/product-img/product-img.jpg" alt="product img">
+                        </div>
+                        <div class="product-datalist">
+                          <h4>Dernier article</h4>
+                          <h3>Armani Exchange </h3>
+                          <p>Veste en jean</p>
+                          <p>
+                            <span>Couleur : </span><span>Bleu</span>
+                          </p>
+                          <p>
+                            <span>Taille : </span><span>XS</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item-counting">
+                        <h3>85 €</h3>
+                        <div class="input-group product_qty">
+                          <span class="input-group-btn">
+                            <button class="btn btn-white btn-minus" type="button">
+                              <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2">
+                                  <path id="icons8-plus_math" d="M3,9.222v2H17v-2Z" transform="translate(-3 -9.222)" fill="#fff"/>
+                                </svg>
+                              </span>
+                            </button>
+                          </span>
+                          <input type="text" class="form-control no-padding add-color text-center height-25" maxlength="3" value="0">
+                            <span class="input-group-btn">
+                              <button class="btn btn-red btn-plus" type="button">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                    <path id="icons8-plus_math" d="M9.222,3V9.222H3v1.556H9.222V17h1.556V10.778H17V9.222H10.778V3Z" transform="translate(-3 -3)" fill="#fff"/>
+                                  </svg>
+                                </span>
+                              </button>
+                            </span>
+                        </div>
+                        <a href="javascript:void(0)">Supprimer</a>
+                      </div>
+                    </div>
+                    <div class="subtotal">
+                      <div class="subtotal-title">
+                        <span>Sous-total</span>
+                        <label>85 €</label>
+                      </div>
+                      <div class="total-button">
+                        <a href="javascript:void(0)" class="trans-btn">
+                          Panier
+                          <svg id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <g id="surface1" transform="translate(-1 -0.992)">
+                              <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                            </g>
+                          </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="pink-btn">
+                          Paiement
+                          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15">
+                            <g id="icons8-forward" transform="translate(0 15) rotate(-90)">
+                              <path id="icons8-forward-2" data-name="icons8-forward" d="M1.73,0,0,1.73,5.27,7,0,12.27,1.73,14l7-7Z" transform="translate(14 0) rotate(90)" fill="#fff"/>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-li topbar-mobile">
+          <div class="topbar-right-menu">
+            <div class="register-login">
+                <button type="button" data-toggle="modal" data-target="#exampleModalCenter">
+                  <span>S'inscrire / Se connecter</span>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade register-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                              <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                            </svg>
+                          </span>
+                        </button>
+                      <div class="modal-body login-body">
+                        <h3>Connectez-vous à votre compte</h3>
+                        <p>Veuillez saisir votre adresse email et votre mot de passe pour accéder à votre compte et commencer vos achats</p>
+                        <div class="move-input">
+                          <form class="form">
+                            <div class="field">
+                              <input class="moveinput" id="email" type="email" required>
+                              <label class="movelabel" for="email">Email</label>
+                            </div>
+                            <div class="field">
+                              <input class="moveinput"  id="password" type="password" required>
+                              <label class="movelabel"  for="password">Mot de passe</label>
+                            </div>
+                            <div class="remember">
+                              <div class="remember-input">
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Se souvenir de moi</label>
+                              </div>
+                              <a href="javascript:void(0)">Mot de passe oublié ?</a>
+                            </div>
+                            <div class="form-btn">
+                              <a href="javascript:void(0)" class="black-btn">Se connecter</a>
+                              <div class="social-btn">
+                                <a href="javascript:void(0)" class="trans-btn">
+                                  <img src="assets/images/socialicon/google.png" alt="google img">
+                                  Continuer avec google
+                                </a>
+                                <a href="javascript:void(0)" class="trans-btn">
+                                  <img src="assets/images/socialicon/facebook.png" alt="facebook img">
+                                  Continuer avec Facebook
+                                </a>
+                              </div>
+                            </div>
+                          </form>
+                          <a href="javascript:void(0)" class="already-account">Nouveau sur tenecy ? <b>S'inscrire maintenant</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="wishlist-cart">
+                <div class="wishlist-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
+                    <path id="icons8-heart_outline" d="M11.5,21l-.327-.2C10.838,20.6,3,15.838,3,10.739A4.666,4.666,0,0,1,7.577,6,4.55,4.55,0,0,1,11.5,8.3,4.55,4.55,0,0,1,15.423,6,4.666,4.666,0,0,1,20,10.739c0,5.1-7.838,9.864-8.173,10.063ZM7.577,7.354a3.332,3.332,0,0,0-3.269,3.385c0,3.795,5.744,7.749,7.192,8.685,1.448-.936,7.192-4.89,7.192-8.685a3.271,3.271,0,1,0-6.538,0H10.846A3.332,3.332,0,0,0,7.577,7.354Z" transform="translate(-3 -6)" fill="#191919"/>
+                  </svg>
+                </div>
+                <div class="cart-icon">
+                  <svg class="cartsvg" id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g id="surface1" transform="translate(-1 -0.992)">
+                      <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                    </g>
+                  </svg>
+                  <div class="cart-dropdown">
+                    <div class="cart-title">
+                      <div class="iten-name">
+                        <span>Panier</span>
+                        <label>1 article</label>
+                      </div>
+                      <div class="cencel-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                          <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="product-section">
+                      <div class="product-data">
+                        <div class="product-img">
+                          <img src="assets/images/product-img/product-img.jpg" alt="product img">
+                        </div>
+                        <div class="product-datalist">
+                          <h4>Dernier article</h4>
+                          <h3>Armani Exchange </h3>
+                          <p>Veste en jean</p>
+                          <p>
+                            <span>Couleur : </span><span>Bleu</span>
+                          </p>
+                          <p>
+                            <span>Taille : </span><span>XS</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="item-counting">
+                        <h3>85 €</h3>
+                        <div class="input-group product_qty">
+                          <span class="input-group-btn">
+                            <button class="btn btn-white btn-minus" type="button">
+                              <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2">
+                                  <path id="icons8-plus_math" d="M3,9.222v2H17v-2Z" transform="translate(-3 -9.222)" fill="#fff"/>
+                                </svg>
+                              </span>
+                            </button>
+                          </span>
+                          <input type="text" class="form-control no-padding add-color text-center height-25" maxlength="3" value="0">
+                            <span class="input-group-btn">
+                              <button class="btn btn-red btn-plus" type="button">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                    <path id="icons8-plus_math" d="M9.222,3V9.222H3v1.556H9.222V17h1.556V10.778H17V9.222H10.778V3Z" transform="translate(-3 -3)" fill="#fff"/>
+                                  </svg>
+                                </span>
+                              </button>
+                            </span>
+                        </div>
+                        <a href="javascript:void(0)">Supprimer</a>
+                      </div>
+                    </div>
+                    <div class="subtotal">
+                      <div class="subtotal-title">
+                        <span>Sous-total</span>
+                        <label>85 €</label>
+                      </div>
+                      <div class="total-button">
+                        <a href="javascript:void(0)" class="trans-btn">
+                          Panier
+                          <svg id="panier-18x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <g id="surface1" transform="translate(-1 -0.992)">
+                              <path id="Path_540" data-name="Path 540" d="M1,.992v1.23H3.441a.609.609,0,0,1,.572.423L5.153,12.894a1.848,1.848,0,0,0,1.821,1.638h7.452V13.3H6.974a.6.6,0,0,1-.605-.543l-.076-.687h7.743a1.845,1.845,0,0,0,1.8-1.48L17,4.692H5.467L5.205,2.347l-.019-.058A1.835,1.835,0,0,0,3.441.992Zm12.205,13.54a1.23,1.23,0,1,0,1.221,1.23A1.228,1.228,0,0,0,13.205,14.532Zm-6.1,0a1.23,1.23,0,1,0,1.22,1.23A1.228,1.228,0,0,0,7.1,14.532Zm-1.5-8.61h9.907l-.877,4.425a.609.609,0,0,1-.6.495H6.154Z" transform="translate(0 0)" fill="#191919"/>
+                            </g>
+                          </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="pink-btn">
+                          Paiement
+                          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15">
+                            <g id="icons8-forward" transform="translate(0 15) rotate(-90)">
+                              <path id="icons8-forward-2" data-name="icons8-forward" d="M1.73,0,0,1.73,5.27,7,0,12.27,1.73,14l7-7Z" transform="translate(14 0) rotate(90)" fill="#fff"/>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- main menu -->
+
+    <!-- product details -->
+    <section class="product-details-section">
+      <div class="full-container">
+        <div class="product-details-panel">
+          <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">Home Page  ›</li>
+                <li class="breadcrumb-item" aria-current="page">Femme  ›</li>
+                <li class="breadcrumb-item active" aria-current="page">Outlet</li>
+              </ol>
+          </nav>
+          <div class="women-looks-section">
+            <div class="women-panel">
+              <div class="women-panel-left">
+                <img src="assets/images/trend-img/sales001.jpg">
+              </div>
+              <div class="women-panel-right">
+                <img src="assets/images/trend-img/sales002.jpg">
+                <h2 class="outlet-font italicWeb">—out <br> let %</h2>
+                <h2 class="outlet-font italicMobile">—out let %</h2>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- product details -->
+
+    <!-- filter -->
+    <section class="full-container">
+        <div class="filter_trier">
+          <ul class="nav">
+            <li>
+              <a href="javascript:void(0)">
+                <div class="filter-div">
+                  <a class="filter-btn filterBtnToggle">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.005" height="15.002" viewBox="0 0 17.005 15.002">
+                        <defs>
+                          <clipPath id="clip-path">
+                            <rect id="Rectangle_260" data-name="Rectangle 260" width="17.005" height="15.002" transform="translate(0 0)" fill="none"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Group_1087" data-name="Group 1087" transform="translate(0 0)" clip-path="url(#clip-path)">
+                          <path id="Path_811" data-name="Path 811" d="M16.5,1.917H12.8V.5a.5.5,0,0,0-.5-.5h-.889a.5.5,0,0,0-.5.5V1.917H.5a.5.5,0,0,0-.5.5V3.25a.5.5,0,0,0,.5.5H10.911V5.167a.5.5,0,0,0,.5.5H12.3a.5.5,0,0,0,.5-.5V3.75h3.7a.5.5,0,0,0,.5-.5V2.417a.5.5,0,0,0-.5-.5" fill="#191919"/>
+                          <path id="Path_812" data-name="Path 812" d="M16.5,11.252H5.689V9.835a.5.5,0,0,0-.5-.5H4.3a.5.5,0,0,0-.5.5v1.417H.5a.5.5,0,0,0-.5.5v.833a.5.5,0,0,0,.5.5H3.8V14.5a.5.5,0,0,0,.5.5h.889a.5.5,0,0,0,.5-.5V13.085H16.5a.5.5,0,0,0,.5-.5v-.833a.5.5,0,0,0-.5-.5" fill="#191919"/>
+                        </g>
+                      </svg>
+                      Filter
+                  </a>
+                  <div class="filter-main">
+                    <div class="full-container">
+                      <div class="filter-topbar">
+                        <a class="filter-btn">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.005" height="15.002" viewBox="0 0 17.005 15.002">
+                            <defs>
+                              <clipPath id="clip-path">
+                                <rect id="Rectangle_260" data-name="Rectangle 260" width="17.005" height="15.002" transform="translate(0 0)" fill="none"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Group_1087" data-name="Group 1087" transform="translate(0 0)" clip-path="url(#clip-path)">
+                              <path id="Path_811" data-name="Path 811" d="M16.5,1.917H12.8V.5a.5.5,0,0,0-.5-.5h-.889a.5.5,0,0,0-.5.5V1.917H.5a.5.5,0,0,0-.5.5V3.25a.5.5,0,0,0,.5.5H10.911V5.167a.5.5,0,0,0,.5.5H12.3a.5.5,0,0,0,.5-.5V3.75h3.7a.5.5,0,0,0,.5-.5V2.417a.5.5,0,0,0-.5-.5" fill="#191919"/>
+                              <path id="Path_812" data-name="Path 812" d="M16.5,11.252H5.689V9.835a.5.5,0,0,0-.5-.5H4.3a.5.5,0,0,0-.5.5v1.417H.5a.5.5,0,0,0-.5.5v.833a.5.5,0,0,0,.5.5H3.8V14.5a.5.5,0,0,0,.5.5h.889a.5.5,0,0,0,.5-.5V13.085H16.5a.5.5,0,0,0,.5-.5v-.833a.5.5,0,0,0-.5-.5" fill="#191919"/>
+                            </g>
+                          </svg>
+                          Filter
+                        </a>
+                        <a href="javascript:void(0)">853 Résultats</a>
+                      </div>
+                      <div class="filter-popup">
+                        <div class="main-filter">
+                          <div class="filter-session">
+                            <h2 class="filter-title">Prêt-à-porter</h2>
+                            <div class="filter-overflow">
+                              <div class="product-filter">
+                                <ul>
+                                  <li><a href="javascript:void(0)">Jeans</a></li>
+                                  <li><a href="javascript:void(0)">Sweats</a></li>
+                                  <li><a href="javascript:void(0)">Tops & Chemises</a></li>
+                                  <li><a href="javascript:void(0)">T-shirts </a></li>
+                                  <li><a href="javascript:void(0)">Pulls</a></li>
+                                </ul>
+                              </div>
+                              <div class="voir-plus">Voir plus</div>
+                            </div>
+                          </div>
+                          <div class="filter-session">
+                            <h2 class="filter-title">Marques</h2>
+                            <div class="atoz-input filter-search">
+                              <input type="text" name="search" placeholder="Rechercher une marque">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                  <path id="icons8-search" d="M8.833,3a5.833,5.833,0,1,0,3.688,10.346L16,16.829A.583.583,0,1,0,16.829,16l-3.483-3.483A5.827,5.827,0,0,0,8.833,3Zm0,1.167A4.667,4.667,0,1,1,4.167,8.833,4.658,4.658,0,0,1,8.833,4.167Z" transform="translate(-3 -3)" fill="#ff7f9f"></path>
+                                </svg>
+                            </div>
+                            <div class="filter-overflow">
+                              <div class="marque-filter">
+                                <ul>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label001"> 
+                                        <label for="label001">Adidas by Pharrell Williams</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label002"> 
+                                        <label for="label002">Adidas by Stella McCartney</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label003"> 
+                                        <label for="label003">Adidas YEEZY</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label004"> 
+                                        <label for="label004">Alberto Gozzi</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label005"> 
+                                        <label for="label006">Alexander McQueen Eyewear</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label007"> 
+                                        <label for="label007">Alexander Wang</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label008"> 
+                                        <label for="label008">Adidas YEEZY</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label009"> 
+                                        <label for="label009">Alberto Gozzi</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label0010"> 
+                                        <label for="label0010">Alexander McQueen Eyewear</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">
+                                      <div class="remember-input">
+                                        <input type="checkbox" value="lsRememberMe" id="label0011"> 
+                                        <label for="label0011">Alexander Wang</label>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="filter-session">
+                            <h2 class="filter-title">Couleur</h2>
+                            <div class="filter-overflow">
+                              <div class="colur-plate">
+                                <span class="colur-one"></span>
+                                <span class="colur-two"></span>
+                                <span class="colur-three"></span>
+                                <span class="colur-four"></span>
+                                <span class="colur-five"></span>
+                                <span class="colur-six"></span>
+                                <span class="colur-seven"></span>
+                                <span class="colur-eight"></span>
+                                <span class="colur-nine"></span>
+                                <span class="colur-ten"></span>
+                                <span class="colur-eleven"></span>
+                                <span class="colur-twelve"></span>
+                              </div>
+                              <div class="voir-plus">Voir plus</div>
+                            </div>
+                          </div>
+                          <div class="filter-session">
+                            <h2 class="filter-title">Taille</h2>
+                            <div class="filter-overflow">
+                              <div class="radio-filter">
+                                <form class="form">
+                                  <div class="switch-field">
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-one" name="switch-two" value="yes" checked/>
+                                      <label for="radio-one">XXS</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-two" name="switch-two" value="maybe" />
+                                      <label for="radio-two">XS</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-three" name="switch-two" value="no" />
+                                      <label for="radio-three">S</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-four" name="switch-two" value="no" />
+                                      <label for="radio-four">M</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-five" name="switch-two" value="no" />
+                                      <label for="radio-five">L</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-six" name="switch-two" value="no" />
+                                      <label for="radio-six">XL</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-seven" name="switch-two" value="no" />
+                                      <label for="radio-seven">XXL</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-eight" name="switch-two" value="no" />
+                                      <label for="radio-eight">Unique</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-nine" name="switch-two" value="no" />
+                                      <label for="radio-nine">Petite</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-ten" name="switch-two" value="no" />
+                                      <label for="radio-ten">Tall</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-eleven" name="switch-two" value="no" />
+                                      <label for="radio-eleven">00</label>
+                                    </div>
+                                    <div class="switch-radio">
+                                      <input type="radio" id="radio-twelve" name="switch-two" value="no" />
+                                      <label for="radio-twelve">0</label>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="voir-plus">Voir plus</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="filter-btn-popup">
+                          <a href="javascript:void(0)" class="trans-btn">Réinitialiser</a>
+                          <a href="javascript:void(0)" class="black-btn">Appliquer</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <div class="center_txt">
+                  <p>64 Résultats</p>
+                </div>
+              </a>
+            </li>
+            <li class="button-dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle filter-btn">
+                Trier Par :  
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8.73" viewBox="0 0 14 8.73">
+                  <path id="icons8-forward" d="M1.73,0,0,1.73,5.27,7,0,12.27,1.73,14l7-7Z" transform="translate(14) rotate(90)"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu sort-dropdown">
+                <li>
+                  <a href="javascript:void(0)">
+                   one
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                   two
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                   three
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <!-- filter -->
+
+    <!-- Women shopping -->
+    <section class="women_shopping_start">
+      <div class="full-container">
+        <div class="row">
+          <div class="shopingcard two">
+            <div class="row mb40px">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Robe imprimée à col bénitier</p>
+                    <label class="product-price">1 590 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Tote bag Scorci Fiorentini en cuir imprimé</p>
+                    <label class="product-price">850 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Sac de plage transparent</p>
+                    <label class="product-price">160 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>Balmain</span>
+                    <p>Mini-jupe boutonnée à taille haute</p>
+                    <label class="product-price">1 095 €</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shopingcard two">
+            <div class="row mb40px">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Robe imprimée à col bénitier</p>
+                    <label class="product-price">1 590 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Tote bag Scorci Fiorentini en cuir imprimé</p>
+                    <label class="product-price">850 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Sac de plage transparent</p>
+                    <label class="product-price">160 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>Balmain</span>
+                    <p>Mini-jupe boutonnée à taille haute</p>
+                    <label class="product-price">1 095 €</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shopingcard two">
+            <div class="row mb40px">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Robe imprimée à col bénitier</p>
+                    <label class="product-price">1 590 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Tote bag Scorci Fiorentini en cuir imprimé</p>
+                    <label class="product-price">850 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Sac de plage transparent</p>
+                    <label class="product-price">160 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>Balmain</span>
+                    <p>Mini-jupe boutonnée à taille haute</p>
+                    <label class="product-price">1 095 €</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shopingcard two">
+            <div class="row mb40px">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Robe imprimée à col bénitier</p>
+                    <label class="product-price">1 590 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Tote bag Scorci Fiorentini en cuir imprimé</p>
+                    <label class="product-price">850 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Sac de plage transparent</p>
+                    <label class="product-price">160 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>Balmain</span>
+                    <p>Mini-jupe boutonnée à taille haute</p>
+                    <label class="product-price">1 095 €</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shopingcard two">
+            <div class="row mb40px">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Robe imprimée à col bénitier</p>
+                    <label class="product-price">1 590 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Tote bag Scorci Fiorentini en cuir imprimé</p>
+                    <label class="product-price">850 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>EMILIO PUCCI</span>
+                    <p>Sac de plage transparent</p>
+                    <label class="product-price">160 €</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="shopping-product mtsm10px">
+                  <div class="img-items">
+                    <img src="assets/images/product-img/colored-bag-woman-001.png">
+                  </div>
+                  <div class="whishlisticon">
+                    <img src="assets/images/svg-icons/wishlistBorder.svg" class="iconborder" alt="wishlist icon">
+                    <img src="assets/images/svg-icons/wishlistfill.svg" class="iconfill" alt="wishlist icon">
+                  </div>
+                  <div class="product-details">
+                    <span>Balmain</span>
+                    <p>Mini-jupe boutonnée à taille haute</p>
+                    <label class="product-price">1 095 €</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Women shopping -->
+
+    <!-- voir_sur -->
+    <section class="voir_sur">
+      <div class="full-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="voir_wapp">
+              <p>Voir 24 sur 64 Produits</p>
+              <a href="javascript:void(0)" class="black-btn">Voir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- voir_sur -->
+
+    <!-- contact panel -->
+    <section class="contact-panel mt-50">
+      <div class="contact-data"> 
+        <h3>Restons en contact</h3>
+        <h4>Recevez nos News</h4>
+        <div class="email-section">
+          <input type="email" name="email" placeholder="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21">
+            <path id="icons8-send_email" d="M3,3A2.015,2.015,0,0,0,1,5V18H3V5H19V3ZM7,7A2,2,0,0,0,5,9V19a2,2,0,0,0,2,2h7V19H7V11.627L14,16l7-4.373v2.545l.414.414L23,16.172V9a2,2,0,0,0-2-2ZM7,9H21v.627L14,14,7,9.627Zm13,7v3H16v2h4v3l4-4Z" transform="translate(-1 -3)" fill="#fff"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- contact panel -->
+
+    <!-- footer panel -->
+    <section class="footer-panel">
+      <div class="full-container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <div class="footer-data">
+              <img src="assets/images/logo.svg" alt="footer logo" class="footer-logo">
+              <div class="address">
+                <div class="address-line">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20">
+                    <path id="icons8-marker" d="M12,2A7.1,7.1,0,0,0,5,9.2c0,4.08,4.4,10.1,6.226,12.418a.976.976,0,0,0,1.548,0C14.6,19.3,19,13.281,19,9.2A7.1,7.1,0,0,0,12,2Zm0,9.773A2.573,2.573,0,1,1,14.5,9.2,2.536,2.536,0,0,1,12,11.773Z" transform="translate(-5 -2)" fill="#191919"/>
+                  </svg>
+                  <p>
+                    10 Place Vendôme <br> 75001 Paris, France
+                  </p>
+                </div>
+                <div class="address-line">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="19.441" height="20" viewBox="0 0 19.441 20">
+                    <path id="icons8-phone" d="M18.56,15.947a1.06,1.06,0,0,0-1.106.006l-1.729,1.06a1.058,1.058,0,0,1-1.226-.076,28.387,28.387,0,0,1-2.461-2.207A28.728,28.728,0,0,1,9.891,12.2a1.14,1.14,0,0,1-.074-1.261l1.03-1.779a1.149,1.149,0,0,0,0-1.142L8.315,3.557a1.082,1.082,0,0,0-1.207-.524,3.565,3.565,0,0,0-1.68,1.038C3.473,6.083,2.434,9.477,9.789,17.044s10.654,6.5,12.61,4.486A3.729,3.729,0,0,0,23.41,19.8a1.133,1.133,0,0,0-.507-1.236Z" transform="translate(-4 -3)" fill="#191919"/>
+                  </svg>
+                  <p>
+                    01 53 45 54 16
+                  </p>
+                </div>
+              </div>
+              <div class="social-media-footer">
+                <h3>Suivez nous :</h3>
+                <div class="social-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24.611" height="20" viewBox="0 0 24.611 20">
+                    <path id="icons8-twitter" d="M24.552,7.984a10.1,10.1,0,0,1-2.9.8,5.062,5.062,0,0,0,2.221-2.793,10.139,10.139,0,0,1-3.207,1.224,5.051,5.051,0,0,0-8.6,4.605A14.337,14.337,0,0,1,1.654,6.54a5.06,5.06,0,0,0,1.563,6.744,5.045,5.045,0,0,1-2.288-.633v.063a5.056,5.056,0,0,0,4.049,4.953,5.052,5.052,0,0,1-1.329.176,4.864,4.864,0,0,1-.951-.092,5.061,5.061,0,0,0,4.717,3.508,10.122,10.122,0,0,1-6.27,2.16,9.928,9.928,0,0,1-1.2-.071,14.266,14.266,0,0,0,7.739,2.269A14.268,14.268,0,0,0,22.047,11.253c0-.219-.006-.439-.013-.654A10.265,10.265,0,0,0,24.552,7.984Z" transform="translate(0.059 -5.617)" fill="#707070"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20.102" height="20" viewBox="0 0 20.102 20">
+                    <path id="Path_562" data-name="Path 562" d="M-1219.259,1224.944v-.108a7.288,7.288,0,0,0-.036-.781,7.188,7.188,0,0,0-.2-1.071,10.136,10.136,0,0,0-1.027-2.538,9.733,9.733,0,0,0-1.3-1.78,10.53,10.53,0,0,0-.905-.876,10.223,10.223,0,0,0-1.907-1.286,10.058,10.058,0,0,0-2.031-.788,7.714,7.714,0,0,0-2-.288h-.173s0-.007-.01-.009h-.867s0,.006,0,.009h-.191c-.235.009-.47.013-.7.036a7.653,7.653,0,0,0-1.092.2,10.043,10.043,0,0,0-2.9,1.224,9.755,9.755,0,0,0-1.538,1.176,10.679,10.679,0,0,0-.8.827,10.093,10.093,0,0,0-1.24,1.8,10.007,10.007,0,0,0-.845,2.12,8.38,8.38,0,0,0-.316,2.235c0,.387-.007.774.01,1.161.01.2.015.407.044.61a10.212,10.212,0,0,0,.528,2.124,10.116,10.116,0,0,0,.965,1.944,10.163,10.163,0,0,0,1.783,2.093,9.8,9.8,0,0,0,1.1.862,10.056,10.056,0,0,0,2.045,1.057,9.93,9.93,0,0,0,1.832.5c.212.036.231.018.231-.193q0-3.333,0-6.666c0-.209-.007-.217-.218-.217h-2.138a1,1,0,0,1-.113,0,.093.093,0,0,1-.09-.092.862.862,0,0,1,0-.094q0-1.224,0-2.448c0-.012,0-.025,0-.038,0-.125.026-.15.148-.152h2.2c.211,0,.218-.007.219-.216,0-.706,0-1.412,0-2.118,0-.138,0-.275.015-.413a4.514,4.514,0,0,1,.3-1.305,3.151,3.151,0,0,1,.751-1.116,3.284,3.284,0,0,1,1.313-.75,4.562,4.562,0,0,1,1.4-.194c.316,0,.633.015.948.046.359.036.718.071,1.075.125.125.019.146.046.146.175q0,1.036,0,2.071c0,.135-.023.157-.161.157-.33,0-.659,0-.989,0a3.091,3.091,0,0,0-.506.041,1.417,1.417,0,0,0-.858.431,1.5,1.5,0,0,0-.387,1.043q0,.885,0,1.77c0,.253,0,.254.256.254h2.355c.13,0,.155.026.136.149-.128.834-.258,1.668-.384,2.5-.025.164-.041.176-.206.176h-1.884c-.273,0-.274,0-.274.275q0,3.276,0,6.553c0,.044,0,.088,0,.132.007.116.039.143.156.125.143-.021.284-.05.426-.08a9.993,9.993,0,0,0,3.326-1.369A10.259,10.259,0,0,0-1221.6,1232a9.928,9.928,0,0,0,1.324-1.984,9.7,9.7,0,0,0,.651-1.623,7.513,7.513,0,0,0,.365-2.3v-.129l.009,0v-1.017Z" transform="translate(1239.352 -1215.418)" fill="#707070"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path id="icons8-instagram" d="M8.909,3A5.915,5.915,0,0,0,3,8.909v8.182A5.915,5.915,0,0,0,8.909,23h8.182A5.915,5.915,0,0,0,23,17.091V8.909A5.915,5.915,0,0,0,17.091,3Zm9.545,3.636a.909.909,0,1,1-.909.909A.912.912,0,0,1,18.455,6.636ZM13,8a5,5,0,1,1-5,5A5,5,0,0,1,13,8Zm0,.909A4.091,4.091,0,1,0,17.091,13,4.1,4.1,0,0,0,13,8.909Z" transform="translate(-3 -3)" fill="#707070"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-section">
+            <div class="footer-data">
+              <h3>Tenecy world</h3>
+              <ul>
+                <li><a href="javascript:void(0)">Qui Sommes-Nous ?</a></li>
+                <li><a href="javascript:void(0)">Tenecy City</a></li>
+                <li><a href="javascript:void(0)">Tenecy Originals</a></li>
+                <li><a href="javascript:void(0)">Tenecy Channel</a></li>
+                <li><a href="javascript:void(0)">Tenecy Studio</a></li>
+                <li><a href="javascript:void(0)">Outlet</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section">
+            <div class="footer-data">
+              <h3>On est là pour vous</h3>
+              <ul>
+                <li><a href="javascript:void(0)">Aide & FAQ</a></li>
+                <li><a href="javascript:void(0)">Suivre la commande</a></li>
+                <li><a href="javascript:void(0)">Livraison</a></li>
+                <li><a href="javascript:void(0)">Échanges et Retours</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section">
+            <div class="footer-data">
+              <h3>Plus d'informations</h3>
+              <ul>
+                <li><a href="javascript:void(0)">Devenir Vendeur Sur Tenecy</a></li>
+                <li><a href="javascript:void(0)">Me connecter à mon Marketplace</a></li>
+                <li><a href="javascript:void(0)">Devenir livreur</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section">
+            <div class="footer-data">
+              <h3 class="last-text">Commandez partout avec Tenecy app </h3>
+              <div class="app-img">
+                <img src="assets/images/socialicon/app-store.svg" alt="app store">
+                <img src="assets/images/socialicon/google-play.svg" alt="google play">
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer panel -->
+
+    <!-- copyright panel -->
+    <section class="copyright-panel">
+      <div class="full-container">
+        <div class="row m-0">
+          <div class="col-lg-4 col-sm-12 col-xs-12 p-0">
+            <div class="language-dropdown">
+              <span class="lanuag-label">Langue :</span>
+              <dl id="country-select" class="dropdown">
+                <dt>
+                  <a href="javascript:void(0);">
+                    <span>
+                      <img src="assets/images/country-flag/india.png">
+                    </span>
+                  </a>
+
+                </dt>
+                <dd>
+                  <ul style="display: none;">
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a cunt_code="+91" href="javascript:void(0);">
+                        <span><img src="assets/images/country-flag/india.png"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-xs-12 p-0">
+            <div class="copyright-text">
+              <p>©Tenecy 2020 Tous droits réservés</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-xs-12 p-0">
+            <div class="copyright-link">
+              <a href="javascript:void(0)">CGV <span>|</span> </a>
+              <a href="javascript:void(0)">Politique de confidentialité <span>|</span> </a>
+              <a href="javascript:void(0)">Gérer les cookies <span>|</span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- copyright panel -->
+
+    <!-- Modal-->
+    <div class="modal fade register-modal registerSecond" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                  <path id="icons8-cancel" d="M13.4,10.781,10.781,13.4l6.883,6.883-6.883,6.883L13.4,29.781,20.281,22.9l6.883,6.883,2.617-2.617L22.9,20.281,29.781,13.4l-2.617-2.617-6.883,6.883Z" transform="translate(-10.781 -10.781)" fill="#191919"/>
+                </svg>
+              </span>
+            </button>
+          <div class="modal-body login-body">
+            <h3>Rejoignez-nous</h3>
+            <p>Créez un compte pour profiter d'une expérience d'achat personnalisée :</p>
+            <div class="move-input">
+              <form class="form">
+                <div class="field select-gender">
+                  <select id="cars">
+                    <option value="Genre" selected>Genre</option>
+                    <option value="saab">two</option>
+                    <option value="vw">Three</option>
+                    <option value="audi">Four</option>
+                  </select>
+                  <img src="assets/images/svg-icons/drop-down.svg">
+                </div>
+                <div class="first-last">
+                  <div class="field">
+                    <input class="moveinput" id="Prénom" type="text" required>
+                    <label class="movelabel" for="Prénom">Prénom</label>
+                  </div>
+                  <div class="field">
+                    <input class="moveinput" id="Nom" type="text" required>
+                    <label class="movelabel" for="Nom">Nom</label>
+                  </div>
+                </div>
+                <div class="field cust-datepicker">
+                    <input type="text" class="form-control hasDatepicker" placeholder="Date de naissance (JJ-MM-AAAA)" >
+                    <span>Optionnel</span>
+                </div>
+                <div class="field">
+                  <input class="moveinput" id="email" type="email" required>
+                  <label class="movelabel" for="email">Email</label>
+                </div>
+                <div class="field">
+                  <input class="moveinput"  id="password" type="password" required>
+                  <label class="movelabel"  for="password">Mot de passe</label>
+                </div>
+                <div class="form-btn mt-10px">
+                  <a href="javascript:void(0)" class="black-btn">S'inscrire</a>
+                  <div class="social-btn">
+                    <a href="javascript:void(0)" class="trans-btn">
+                      <img src="assets/images/socialicon/google.png" alt="google img">
+                      Continuer avec google
+                    </a>
+                    <a href="javascript:void(0)" class="trans-btn">
+                      <img src="assets/images/socialicon/facebook.png" alt="facebook img">
+                      Continuer avec Facebook
+                    </a>
+                      <p class="register-pera">En cliquant sur "S'inscrire", vous acceptez les 
+                        <a href="javascript:void(0)">CGU</a> 
+                        de Tenecy. Pour savoir comment nous pouvons utiliser vos informations, consultez notre 
+                        <a href="javascript:void(0)">politique de confidentialité.</a>
+                      </p>
+                  </div>
+                </div>
+              </form>
+              <a class="modal-link" >Déjà inscrit ? <b>Connectez-vous ici</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="assets/js/tenecy.js"></script>  
+  </body>
+</html>
